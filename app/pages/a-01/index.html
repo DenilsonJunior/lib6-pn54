@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../../styles/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="../../styles/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="../../modules/flamboyant-props.min.css"/>
+</head>
+<body role="application">
+  <header>
+    <div class="component-template-header fixedHeader hamburguerAtivo" id="header">
+      <div class="container-image"><img src="../../assets/img/logo.svg" alt="" aria-label="" tabindex="-1" aria-hidden="aria-hidden"/>
+      </div>
+    </div>
+  </header>
+  <interection>
+    <div class="container-interaction-arrows bottom   ">
+      <button class="container-arrow container-arrow-left arrow-left" tabindex="1001" role="button" aria-label="Voltar para a tela anterior." title="Seta para esquerda."></button>
+      <button class="container-arrow container-arrow-right arrow-right pulse" tabindex="1000" role="button" aria-label="Avançar para a próxima tela." title="Seta para direita."></button>
+    </div>
+  </interection>
+  <body header-hide prev-page="03-pag" next-hide>
+    <button class="voltar" onClick="navigate.goto('03-pag')"><img class="ico" src="../../assets/img/menu.svg"/>
+    </button>
+    <div class="simplePage">
+      <section class="section01">
+        <div class="container-template-wildcard down">
+          <div class="col    col-wide1 col-wide  " alt="" aria-label="" tabindex="-1">
+            <div class="wrapper">
+              <div class="container-image"><img class="img-shadow down" src="../../assets/img/01-b.png" alt="" aria-label="" tabindex="-1" aria-hidden="aria-hidden"/>
+              </div>
+            </div>
+          </div>
+          <div class="col    col-01  col-full prop-pt3 prop-pb3" alt="" aria-label="" tabindex="-1">
+            <div class="wrapper">
+              <h1 class="bigtitle prop-m0 color-01 prop-txt-center" tabindex="1">A grande aposta</h1>
+              <p class="text prop-mt1 prop-txt-center" tabindex="2">Para conferir e conhecer os planos de aula e outros materiais desta seção, acesse os botões a seguir​</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section02">
+        <div class="container-template-wildcard">
+          <div class="col   col-one col-01  col-full up prop-pt3 prop-pb3" alt="" aria-label="" tabindex="-1">
+            <div class="wrapper">
+              <div class="container-list">
+                <div class="container-btn">
+                  <button class="botao" tabindex="1" aria-label="" item="" onClick="navigate.goto('a-02')">
+                    <div class="container-image"><img class="pulse" src="../../assets/img/a01.png" alt="" aria-label="" tabindex="-1" aria-hidden="aria-hidden"/>
+                    </div>
+                    <p class="text prop-mt1 prop-txt-center" tabindex="2">Planos de aula</p>
+                  </button>
+                </div>
+                <div class="container-btn">
+                  <button class="botao" tabindex="3" aria-label="" item="" onClick="navigate.goto('a-03')">
+                    <div class="container-image"><img class="pulse" src="../../assets/img/a02.png" alt="" aria-label="" tabindex="-1" aria-hidden="aria-hidden"/>
+                    </div>
+                    <p class="text prop-mt1 prop-txt-center" tabindex="4">Questões e podcasts</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</body>
+<script src="../../scripts/jquery.min.js"></script>
+<script src="../../scripts/jquery-ui.min.js"></script>
+<script src="../../scripts/jquery.ui.touch-punch.min.js"></script>
+<script src="../../scripts/components.mixin.scripts.js"></script>
+<script src="../../scripts/page.js"></script>
+<script src="script.js"></script>

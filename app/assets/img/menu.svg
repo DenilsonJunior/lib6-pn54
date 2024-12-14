@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="83.514" height="83.28" viewBox="0 0 83.514 83.28">
+  <defs>
+    <filter id="Retângulo_488" x="0" y="0" width="83.514" height="83.28" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.278"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1626" data-name="Grupo 1626" transform="translate(9 6)">
+    <path id="Caminho_921" data-name="Caminho 921" d="M110.168,157.151A31.166,31.166,0,1,1,79,125.986a31.165,31.165,0,0,1,31.165,31.165" transform="translate(-46.244 -124.511)" fill="#16406d"/>
+    <g id="Grupo_1625" data-name="Grupo 1625" transform="translate(15.608 21.08)">
+      <path id="Caminho_18" data-name="Caminho 18" d="M85.192,141.763H56.672a2.411,2.411,0,0,1,0-4.823h28.52a2.411,2.411,0,0,1,0,4.823" transform="translate(-54.261 -136.94)" fill="#fff"/>
+      <path id="Caminho_19" data-name="Caminho 19" d="M85.192,146.8H56.672a2.411,2.411,0,0,1,0-4.823h28.52a2.411,2.411,0,0,1,0,4.823" transform="translate(-54.261 -132.85)" fill="#fff"/>
+      <path id="Caminho_20" data-name="Caminho 20" d="M85.192,151.759H56.672a2.411,2.411,0,0,1,0-4.823h28.52a2.411,2.411,0,0,1,0,4.823" transform="translate(-54.261 -128.687)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Retângulo_488)">
+      <g id="Retângulo_488-2" data-name="Retângulo 488" transform="translate(9 6)" fill="none" stroke="#fff" stroke-width="4">
+        <rect width="65.514" height="65.28" rx="32.64" stroke="none"/>
+        <rect x="2" y="2" width="61.514" height="61.28" rx="30.64" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
