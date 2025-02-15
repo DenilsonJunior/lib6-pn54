@@ -39,14 +39,6 @@ var config = {
             src: '03-pag/index.html'
         },
         {
-            uid: '04-pag',
-            src: '04-pag/index.html'
-        },
-        {
-            uid: '05-pag',
-            src: '05-pag/index.html'
-        },
-        {
             uid: 'a-01',
             src: 'a-01/index.html'
         },
@@ -93,6 +85,14 @@ var config = {
         {
             uid: 'd-03',
             src: 'd-03/index.html'
+        },
+        {
+            uid: 'y-pag',
+            src: 'y-pag/index.html'
+        },
+        {
+            uid: 'z-pag',
+            src: 'z-pag/index.html'
         }
     ]
 };

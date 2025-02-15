@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../../styles/reset.css"/>
+  <link rel="stylesheet" type="text/css" href="../../styles/animate.min.css"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="../../modules/flamboyant-props.min.css"/>
+</head>
+<body role="application">
+  <header>
+    <div class="component-template-header fixedHeader hamburguerAtivo" id="header">
+      <div class="container-image"><img src="../../assets/img/logo.svg" alt="" aria-label="" tabindex="-1" aria-hidden="aria-hidden"/>
+      </div>
+    </div>
+  </header>
+  <interection>
+    <div class="container-interaction-arrows bottom   ">
+      <button class="container-arrow container-arrow-left arrow-left" tabindex="1001" role="button" aria-label="Voltar para a tela anterior." title="Seta para esquerda."></button>
+      <button class="container-arrow container-arrow-right arrow-right pulse" tabindex="1000" role="button" aria-label="Avançar para a próxima tela." title="Seta para direita."></button>
+    </div>
+  </interection>
+  <body header-hide next-page="z-pag">
+    <button class="voltar" onClick="navigate.goto('03-pag')"><img class="ico" src="../../assets/img/menu.svg"/>
+    </button>
+    <div class="simplePage">
+      <section class="full-H">
+        <div class="container-template-wildcard">
+          <div class="row-wrap">
+            <div class="col col-bg   col-01   left" alt="" aria-label="" tabindex="-1">
+              <div class="col-bg-int" style="background-image: url(../../assets/img/03-a.png);"></div>
+              <div class="wrapper">
+              </div>
+            </div>
+            <div class="col    col-02   right prop-pt5 prop-pb5" alt="" aria-label="" tabindex="-1">
+              <div class="wrapper">
+                <p class="text prop-m0" tabindex="1">Esperamos que os conhecimentos abordados no decorrer deste curso cheguem às escolas e contribuam para a transformação  da educação do país.</p>
+                <p class="text prop-mt1" tabindex="2"><b>Bom trabalho!</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</body>
+<script src="../../scripts/jquery.min.js"></script>
+<script src="../../scripts/jquery-ui.min.js"></script>
+<script src="../../scripts/jquery.ui.touch-punch.min.js"></script>
+<script src="../../scripts/components.mixin.scripts.js"></script>
+<script src="../../scripts/page.js"></script>
+<script src="script.js"></script>
